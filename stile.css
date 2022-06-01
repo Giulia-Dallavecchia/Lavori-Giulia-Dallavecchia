@@ -1,0 +1,1475 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 18px/1.8 "Lato", sans-serif;
+  color: #777;
+  margin-bottom:5%;
+  padding-bottom:5%;
+}
+#locandina {
+	height:400px;
+	width:auto;
+}
+#foto {
+	height:350px;
+	width:auto;
+	max-width: 100%;
+}
+
+
+#h1 {
+	text-align: center; 
+	margin-top: 0px;
+}
+#online {
+	margin-right:10px;
+}
+
+.whiteboxes{
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:0;
+	text-align: justify;
+	width:100%; 
+	height: auto; 
+	margin: 0 auto; 
+}
+.whiteboxesc {
+	display: inline-block;
+	width: 70%;
+	left: 0;
+	margin-left:10%;
+}
+.blackboxesc {
+	display: inline-block;
+	width: 70%;
+	left: 0;
+	margin-left:10%;
+}
+.testo{
+  padding:50px;
+
+}
+.testoA {
+	font-size: 25px;
+	text-align: center;
+}
+.titoli{
+	text-align:center;
+}
+.carrello {
+	text-align: left;
+}
+
+.simplespan{
+	background-color:transparent;
+	font-size:25px;
+	color: black;
+}
+.border{
+	font-size:25px;
+	color: #000;
+	left: 50%;
+}
+
+#madeinmantova {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: 'Lucida Grande' ;
+}
+.blackboxes{
+	display: inline-block;
+	width: 70%;
+	left: 0;
+}
+
+.intoblackboxes{
+	margin-left: 25%;
+	color:white;
+	width:92.5%;
+	
+	text-align:center;
+	text-align: justify;
+}
+
+.intoblackboxeshome{
+	margin-left: 25%;
+	color:white;
+	width:92.5%;
+	text-align:center;
+	text-align: justify;
+}
+
+.rubino {
+	margin-top:2%;
+	margin-left:15%;
+	margin-right:15%;
+	width:20%;
+	background-color:white;
+	float:left;
+}
+.mammaedea{
+	width:53%;
+}
+.storia{
+	margin-left: 35%;
+}
+.descrizionestoria {
+	text-align:center;
+	margin-top: 3%;
+}
+.offerta {
+	margin-top:2%;
+	margin-left:25%;
+	margin-right:120px;
+	width:20%;
+	background-color:white;
+	float:left;
+}
+.carrello {
+	float:center;
+	width:40%;
+	display: inline-block;
+}
+#rubino {
+	width:120%;
+	margin-left:60px;
+	margin-top: 2%;
+}
+
+.block {
+	color: rgb(17, 16, 16);
+	text-transform: uppercase;
+	font-size: 16pt;
+	font-weight: bold;
+	margin-left: 25%;
+	width:92.5%;
+	text-align:center;
+}
+
+.blockhome {
+	color: rgb(17, 16, 16);
+	font-size: 16pt;
+	font-weight: bold;
+	width:92.5%;
+	text-align:center;
+	float: left;
+}
+
+.block1 {
+	color: #ffcc00;
+	text-transform: uppercase;
+	font-size: 16pt;
+	font-weight: bold;
+	margin-left: 25%;
+	width:92.5%;
+	text-align:center;
+}
+a:link, a:visited {
+    text-decoration: underline;
+    color: #000;
+    background-color: transparent;
+}
+
+.intoblackboxes h3{
+  color:white;
+}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-e {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+
+}
+.bgimg-1 {
+  background-image: url("immagini/galleria/chocolate\ 10.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  min-height: 400px;
+}
+
+
+.bgimg-e {
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+}
+
+.caption span.border {
+  
+  color: #FFFAF0;
+  padding: 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-align:center;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+.floatingbox1 a{
+	position:center;
+}
+.floatingbox1{
+	color:inherit;
+	position:bottom;
+	text-decoration:none;
+	margin:auto;
+	text-align: center;
+	display: block;
+	padding: 1em 1.8em;
+	border: 1px solid;
+	width:10%;
+	animation-name: changecolor;
+	animation-duration: 1s;
+	animation-iteration-count: 200;
+	animation-direction: alternate;
+}
+@keyframes changecolor {
+    to {background-color: black;
+	    border-color:none;}
+}
+.floatingbox1:hover, .floatingbox1:active {
+	transition-duration: 300ms;
+	text-decoration:none;
+	color: white;
+	background-color: black;
+	border-color:none;
+	transform:scale(1.2,1.2);
+}
+
+/*Navigation Bar*/
+#navbar {
+	color:(138, 40, 40); /*rosso scuro*/
+	font-size: 90%;
+	font-family: 'Raleway', sans-serif;
+	margin: auto;
+	text-align:center;
+	text-transform: uppercase;
+	line-height: 2;
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+	overflow: hidden;
+	opacity:0.7;
+	background-color: #990000; 
+	position:fixed;
+
+	width:100%;
+	z-index:1;
+}
+.navelement {
+  word-break: keep-all;
+  display: inline-block; /*inline-block elements are like inline elements but they can have a width and a height.*/
+}
+.navelement a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.box {
+		margin: auto; 
+		width: auto;
+		padding:0;
+		display:block;
+		height:auto;
+	}
+
+/* impostazione di una media query che aggiusta la larghezza del menu in base alla grandezza dello schermo*/
+@media only screen and (max-width: 1050px){
+    .navelement {
+        width: auto;
+		word-break: keep-all;
+    }
+}
+@media only screen and (max-width: 1050px){
+	.box {
+		margin: auto; 
+		width: auto;
+		padding:0;
+		display:block;
+		height:auto;
+	}
+}
+@media (max-width: 480px) and (min-width: 100px){
+	.navelement{
+		width: auto;
+		word-break: keep-all;
+	}
+	.caption{
+		position: absolute;
+ 		left: 0;
+ 		width: 100%;
+  		text-align: center;
+  		color: #000000;
+	}
+	.whiteboxes{
+		color: #777;
+		background-color:white;
+		text-align:center;
+		padding:0;
+		text-align: justify;
+		width:100%; 
+		height: auto; 
+		margin: 0 auto; 
+	}
+	.blockcontatti{
+		margin-left:23%;
+		color:black;
+		width:50%;
+		background-color:white;
+		text-align:center;
+		text-align: justify;
+	}
+}
+
+
+@media (max-width: 720px) and (min-width: 480px){
+	.navelement{
+		width: auto;
+		word-break: keep-all;
+	}
+	.caption{
+		position: absolute;
+ 		left: 0;
+ 		width: 100%;
+  		text-align: center;
+  		color: #000000;
+	}
+	.whiteboxes{
+		color: #777;
+		background-color:white;
+		text-align:center;
+		padding:0;
+		text-align: justify;
+		width:100%; 
+		height: auto; 
+		margin: 0 auto; 
+	}
+	.blockcontatti{
+		margin-left:23%;
+		color:black;
+		width:50%;
+		background-color:white;
+		text-align:center;
+		text-align: justify;
+	}
+}
+
+@media (max-width: 1500px) and (min-width: 720px){
+	.navelement{
+		width: auto;
+		word-break: keep-all;
+	}
+	.caption{
+		position: absolute;
+ 		left: 0;
+ 		width: 100%;
+  		text-align: center;
+  		color: #000000;
+	}
+	.whiteboxes{
+		color: #777;
+		background-color:white;
+		text-align:center;
+		padding:0;
+		text-align: justify;
+		width:100%; 
+		height: auto; 
+		margin: 0 auto; 
+	}
+	.blockcontatti{
+		margin-left:23%;
+		color:black;
+		width:50%;
+		background-color:white;
+		text-align:center;
+		text-align: justify;
+	}
+}
+/* Change the link color to #111 (black) on hover */
+.navelement a:hover {
+    background-color: #111;
+}
+#testo{
+	padding: 5%;
+}
+.box{
+	margin: auto;
+	width:80%;
+	padding: 0;
+	display:block;
+	height:auto;
+}
+#box2{
+  width: 100%;
+  height:auto;
+}
+.container{
+	color:(91, 91, 91); /*grigio scuro*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px; 
+	padding: 0;
+	text-align:auto;
+	line-height: 1.7;
+	width:30%;
+	float:left;
+	display:inline; 
+	margin-bottom: 5%;
+	
+}
+.container1{
+	color:(91, 91, 91); /*grigio scuro*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px; 
+	padding: 0;
+	text-align:auto;
+	line-height: 1.7;
+	width:15%;
+	float:left;
+	display:inline; 
+	margin-bottom: 5%;
+}
+.floatingimage {
+	position:bottom;
+	float:left;
+	display:inline-block;
+	margin:auto;
+	width: auto;
+	height: 200px;
+	transition-duration: 600ms;
+}
+
+.description{
+	font-size:65%;
+	position:bottom;
+	float:left;
+	margin:20%;
+	text-align: center;
+	width: 197.59px;
+	height: auto;
+	display: inline-block;
+	font-style:italic;
+	color:#8C8C8C;
+	padding: 0;
+}
+.description p{
+	font-family: "Julius Sans One", sans-serif;
+	text-transform: uppercase;
+	font-style:normal;
+}
+.floatingbox{
+	color:inherit;
+	position:bottom;
+	text-decoration:none;
+	float:left;
+	margin:1%;
+	text-align: center;
+	display: inline-block;
+	padding: 1em 1.8em;
+	border: 1px solid;
+}
+.big{
+  font-family: 'Oswald', sans-serif;
+  font-size: 220%;
+  letter-spacing: -1px;
+  font-style:normal;
+  color:black;
+}
+.small{
+  font-size:70%;
+}
+/*Stile Galleria immagini per misure*/
+#Galleria{
+	text-align: center;
+	width: 100%;
+}
+#galleria {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin-top: 5%;
+}
+.img_galleria{
+	margin-left: 5%;
+	margin-top: 2%;
+	display: inline-block;
+	width:15%;
+}
+.img_galleria1{
+	margin-left: 5%;
+	margin-top: 2%;
+	display: inline-block;
+	width:20%;
+}
+.colori {
+	margin-top: 2%;
+	float:left;
+	width:50%;
+}
+
+.logo{
+	float:left;
+	width:auto;
+	margin-left: 3%;
+}
+#link {
+	text-align: center;
+}
+.link {
+	width: auto;
+	margin-top:35%;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+.immagineciotola{
+	display: inline-block;
+	width: 15%;
+	margin-top:2%;
+	padding:3%;
+}
+
+.imballoespedizioni {
+	display: inline-block;
+	margin-top:2%;
+	padding:3%;
+}
+
+.immaginihome{
+	display: inline-block;
+	width: 25%;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+.immaginihome1{
+	display: inline-block;
+	width: 20%;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+.immaginihome1c{
+	display: inline-block;
+	width: 25%;
+	margin-top: 2%;
+}
+.mission {
+	display: inline-block;
+	width: 50%;
+	margin-top:2%;
+	text-align:center;
+}
+.descrizione {
+	display: inline-block;
+	text-align:center;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.missionDonazione{
+	display: inline-block;
+	width: 50%;
+	margin-top:2%;
+	margin-left:2%;
+	float:left;
+}
+
+#descrizione {
+	text-align: center;
+}
+#elenco{
+	text-align: left;
+}
+
+.immaginegatto {
+	display: inline-block;
+	width: auto;
+}
+
+.preview{
+	width: 70%;
+	margin-left:15%;
+}
+
+.previewDiametro {
+	width: 70%;
+
+}
+
+.preview1{
+	width: 70%;
+	margin-bottom: 5%;
+}
+
+.previewgatto {
+	width: 30%;
+	float:left;
+	margin: 22px;
+}
+
+@media (max-width: 480px) {
+	.immagine{
+		width: auto;
+		margin: 4%;
+	}
+	
+	.immaginihome {
+		width: auto;
+		margin: 4%;
+	}
+	.Video1 {
+		width: auto;
+		margin: 4%;
+	}
+}
+
+
+@media (max-width: 720px) and (min-width: 480px){
+	.immagine{
+		width: auto;
+		margin: 4%;
+	}
+	.immaginihome {
+		width: auto;
+		margin: 4%;
+	}
+	.Video1 {
+		width: auto;
+		margin: 4%;
+	}
+	
+}
+
+@media (max-width: 1500px) and (min-width: 720px){
+	.immagine{
+		width: auto;
+		margin: 4%;
+	}
+	.immaginihome {
+		width: auto;
+		margin: 4%;
+	}
+
+	.Video1 {
+		width: auto;
+		margin: 4%;
+	}
+}
+#cont_testo {
+	padding: 0 10%;
+}
+
+#ciclo_produttivo {
+	padding: 0 17%;
+	width:auto;
+	height:auto;
+	
+}
+
+@media (max-width: 480px) {
+	#ciclo_produttivo {
+	display:none;
+	}
+}
+
+@media (max-width: 720px) and (min-width: 480px){
+	#ciclo_produttivo {
+	display:none;
+	}
+}
+
+@media (max-width: 1500px) and (min-width: 720px){
+	#ciclo_produttivo {
+	padding: 5%;
+	width:auto;
+	height: auto;
+	}
+}
+
+#home {
+	text-align:center;
+}
+.floatingbox:hover, .floatingbox:active {
+	transition-duration: 800ms;
+	text-decoration:none;
+	color: white;
+    background-color: black;
+}
+
+#c4 {
+	margin-left:200px;
+}
+#c5{
+	margin-right:180px;
+}
+
+#intro{
+	top:10%;
+	bottom:10%;
+}
+#container1{
+  display: inline;
+	width:50%;
+	height:70%;
+	float:right;
+	padding: 5% 0;
+}
+#container2{
+  display: inline;
+	float: right;
+	width:55%;
+	height: 70%;
+	margin: auto;
+	padding: 5% 3% ;
+}
+#container3{
+  display: inline;
+  float: left;
+	width: 47%;
+	height: 80%;
+	margin: auto;
+	padding: 3%;
+}
+#container4{
+  margin: 5% 0;
+}
+@media only screen and (max-width: 800px){
+    #container2, #container3{
+      width: 100%;
+      float: none;
+    }
+}
+.desc_sx{
+  display: inline;
+  float: left;
+  width:40%;
+  max-height:70%;
+  margin: auto;
+  text-align: justify;
+  padding: 10% 3%;
+}
+
+.concl{
+  font-size: 90%;
+  color: #777;
+  display: inline-block;
+  padding: 2%;
+}
+.testo a{
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 800px){
+    .concl {
+      width: 100%;
+    }
+}
+#approfondimenti .btn {
+    -ms-transform: translate(-50%, -50%);
+    background-color: #787878;
+    color: black;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+#approfondimenti .btn:hover {
+    background-color: black;
+    color: white;
+}
+.btn a{
+  text-decoration: none;
+}
+.btn2 {
+  margin: auto;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #29a3a3;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  display:block;
+}
+
+.btn2:hover {background-color: #47d1d1}
+
+.btn2 {
+  background-color: #29a3a3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btn2 p{
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font: 80% "Lato", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+#consigli{
+  margin:auto;
+  width: 50%;
+  text-align: center;
+}
+#cons a {text-decoration: none;}
+
+/* STILI CARRELLO */
+.nomi {
+	text-align: center;
+	color: #000000;
+	font-size: 35px;
+}
+.simpleCart_items {
+	width:100%;
+	float:left;
+	display:inline;
+	
+}
+
+#immagine {
+	width:auto;
+	height: auto;
+	max-width:100%;
+}
+
+.Pantone {
+	margin-top: 5%;
+	text-align: center;
+	padding-left: 40%;
+}
+
+.itemContainer, .cartHeaders {
+	width:100%;
+	float:left;
+	display:inline;
+	padding-bottom:10px;
+	margin-left: 80px;
+}
+
+.cartHeaders {
+	font-weight:bold;
+	color: #666666;
+	margin-left: 80px;
+}
+
+.itemContainer div, .cartHeaders div {
+	float:left;
+	display:inline;
+	margin-top:10px;
+	margin-left:60px;
+	text-align:center;
+	width:100px;
+	
+}
+
+div.itemName {
+	font-weight:bold;
+	width:200px;
+}
+
+div.itemTotal {
+	border-right:none;
+}
+
+#mySlides {
+	width: 50%;
+}
+#cartTotal {
+	text-align:left;
+	float:left;
+	width:100%;
+	margin-left:16%;
+	margin-top: 2%;
+}
+
+#cartTotal .simpleCart_total, .simpleCart_shippingCost, .simpleCart_finalTotal {
+	margin-right:15px;
+	font-weight:bold;
+}
+
+
+/* STILI BOTTONI CHECKOUT / SVUOTA CARRELLO */
+.simpleCart_empty{
+	color:#FFFFFF;
+	background:#cca300;
+	font-size:10px;
+	padding:5px;
+	margin-left:10px;
+	text-transform:uppercase;
+	-moz-border-radius:5px; border-radius:5px;
+}
+
+.simpleCart_checkout{
+	color:#FFFFFF;
+	background: #00CC00;
+	font-size:10px;
+	padding:5px;
+	margin-left:5px;
+	text-transform:uppercase;
+	-moz-border-radius:5px; border-radius:5px;
+}
+
+.oggetti {
+	text-align: center;
+}
+.simpleCart_shelfItem { 
+	float:left; 
+	display:inline; 
+	margin-left: 40px;
+	position: center;
+	padding: 25px 25px;
+	margin-bottom: none;
+	width:22%;
+	line-height:100%;
+	background:#FFFFFF;
+	text-align:center;
+	-moz-border-radius:5px; 
+	border-radius:5px;
+}
+.simpleCart_shelfItem.last {
+	margin-right:0;
+}
+
+.simpleCart_shelfItem p { 
+	margin:10px 0 0 0; 
+}
+
+.item_name {
+	font-weight:bold;
+	font-size:24px;
+	margin:15px 2px;
+	padding:0;
+}
+
+.item_size { font-size:12px; }
+
+.item_add {
+	margin:10px 5px;
+	padding:4px; 
+	background:#0033FF;
+	color:#FFFFFF;
+	border:none;
+	-moz-border-radius:5px; border-radius:5px;
+	text-transform: uppercase; 
+	font-size:9px;
+	cursor:pointer;
+}
+
+.item_price{
+	font-weight:bold;
+	font-size:14px;
+	color:#cc0000;
+	margin:10px 5px;
+}
+
+.tabella {
+	padding-left:50px;
+}
+
+#campi {
+	text-align:left;
+	
+}
+
+.invia {
+	width: 150px;
+	font-size: 20px;
+	margin-left: 80%;
+	margin-bottom: 5%;
+	
+}
+@media (max-width: 480px) {
+	.invia {
+	padding: 5%;
+	width:auto;
+	height: auto;
+	}
+	#tablet {
+		display:none;
+	}
+}
+
+
+@media (max-width: 720px) and (min-width: 480px){
+	.invia {
+	padding: 5%;
+	width:auto;
+	height: auto;
+	}
+}
+
+@media (max-width: 1500px) and (min-width: 720px){
+	.invia {
+	padding: 5%;
+	width:auto;
+	height: auto;
+	}
+	#m {
+		display:none;
+	}
+}
+
+#newsletter {
+	margin-left: 42%;
+	
+}
+@media (max-width: 480px) {
+	#newsletter {
+	margin: 5%;
+	margin-left: 20%;
+	width:auto;
+	height: auto;
+	}
+	.g {
+		display:none;
+	}
+	.c {
+		display:none;
+	}
+	#t{
+		display:none;
+	}
+	#tablet {
+		display:none;
+	}
+}
+
+
+@media (max-width: 720px) and (min-width: 480px){
+	#newsletter {
+	margin: 5%;
+	width:auto;
+	height: auto;
+	}
+	
+	.c {
+		display:none;
+	}
+	
+	#tablet {
+		display:none;
+	}
+	
+}
+
+@media (max-width: 1500px) and (min-width: 800px){
+	#newsletter {
+	margin: 5%;
+	margin-left: 40%;
+	width:auto;
+	height: auto;
+	}
+	.s {
+		display:none;
+	}
+	#t{
+		display:none;
+	}
+	
+}
+
+#bottonel {
+  width: 10%;
+  height: 10%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#bottonef {
+  width: 10%;
+  height: 10%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0 30%;
+}
+#bottoneg {
+  width: 10%;
+  height: 10%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+
+/*Menu responsivi per dispositivi mobili*/
+/* regole di reset */
+#mobile ul{
+	margin: 0;
+	padding:0;
+	list-style-type:none
+	}
+
+/*MENU PRINCIPALE*/
+/* lista in orizzontale. inline-block è come inline, ma può avere altezza e larghezza. relative occorre per il sottomenu */
+#menu li{
+	display:inline-block;
+	position:relative}
+
+/* menu. Cambiando center l'oriento a destra o sinistra */
+#menu{
+	width:100%;
+	border-radius:6px;
+	text-align:center}
+
+/* link menu. Cambiando 80px posso scrivere voci più lunghe */
+#menu li a{
+	display:block;
+	padding:12px 20px;
+	width:80px;
+	font:bold 12px Arial;
+	text-decoration:none;
+	border-right:1px solid #ccc}
+
+
+
+/* SOTTOMENU PRINCIPALE */
+#menu li .hidden{
+	display:block;
+	position:absolute;
+	top:100px;
+	left:0;
+	background-color:#FFFFFF;
+	visibility:hidden;
+	margin-left:-5px;
+	border-right:none}
+
+/* link sottomenu */
+#menu li .hidden li a{width:80px;border-right:none}
+
+/* animazione per il passaggio sopra agli elementi del menu */
+#menu li:hover .hidden{margin-top:-65px;visibility:visible}
+
+/* TRIGRAMMA */
+/* stile e invisibilità */
+.showMenu{
+	width:40px;
+	border:1px solid black;
+	margin:auto;
+	color:black;
+	text-align:center;
+	font-size:30px;
+	margin-bottom:10px;
+	display:none}
+
+/* invisibilità checkbox
+Il checkbox va nascosto in ogni caso ed il menu comparirà quando esso verrà selezionato tramite click sull’etichetta */
+input[type=checkbox]{display:none}
+
+/* La tilde alt126 permette di selezionare tutti gli elementi B presenti in A; 
+qui sta a significare che dà visibilità al menu quando il checkbox viene selezionato. */
+input[type=checkbox]:checked ~ #menu{display:block}
+
+
+/* MEDIA QUERIES */
+/* rendo il menù responsive per adattarlo ai dispositivi più piccoli, fino ad una risoluzione massima di 768px */
+@media (max-width: 720px) and (min-width: 480px) {
+  
+#menu{
+	border-radius:0;
+	text-align:center;
+	display:none}
+  
+/* rendo gli elementi dei menu elementi di blocco */  
+#menu ul li{display:block}
+  
+/* imposto la larghezza massima per gli elementi dei menu e i links */  
+#menu li .hidden li,#menu li .hidden li a, #menu ul li, #menu ul li a{
+	padding-right:0;
+	padding-left:0;
+	width:100%;
+	border-right:none}
+  
+/* mostro il sottomenu solo al passaggio del mouse */   
+#menu li .hidden li{display:none}
+#menu li:hover .hidden li{display:block}  
+
+/* resetto la posizione degli elementi del menu. static valore di default. Gli elementi sono mostrati in ordine, come appaiono nel flusso del documento */  
+#menu li{position:static}  
+  
+/* resetto la posizione del sottomenu e lo mostro */  
+#menu li .hidden{position: static;visibility:visible}
+  
+/* nessuna animazione al passaggio del mouse */  
+#menu li:hover .hidden{margin:0}  
+  
+/* mostro il pulsante del menu nella versione mobile*/
+.showMenu{display:block}  
+  
+}
+
+
+/*css galleria*/
+#Galleria {
+	position: center;
+	margin-left:30%;
+}
+#GalleriaColori {
+	float: left;
+}
+#GalleriaColoriT {
+	float: right;
+	margin-top: 5%;
+}
+#foto {
+	width:20%;
+	height:20%;
+}
+
+/* carrello */
+
+.c {
+	margin-left:20%;
+}
+.js {
+	float:left;
+	
+}
+.testo2 {
+	margin-left:25%;
+}
+
+/*prova carrello 2*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left:2%;
+  text-align: center;
+  font-family: arial;
+  float:left;
+  margin-right:2%;
+}
+
+.price {
+  color: grey;
+  font-size: 20px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.boxcarrello {
+	margin-top:2%;
+	margin: auto;
+	margin-left:12%;
+	width:80%;
+	padding: 0;
+	display:block;
+	height:auto;
+}
+
+/*pagina imballo e spedizione*/
+
+.Brt {
+ background-color:white;
+ margin-left: 42%;
+ margin-top: 2%;
+ }
+
+
+ /*Stile pop up*/
+
+ .popup{
+	margin-top: 5%;
+	width: 200px;
+	height: 400px;
+	background: #fefefe;
+	margin: 40px auto;
+	padding: 10px 20px;
+	position: relative;
+	color: #333;
+}
+
+.overlay{
+	position: fixed;
+	margin-top: 2%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	display: none;
+}
+
+#close{
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	color: #fff;
+}
+
+#close:hover{
+	cursor: pointer;
+}
+
+/*parte dei contatti*/
+.whatsapp{
+	width: 120%;
+	vertical-align:middle;
+	float: right;
+	
+}
+.facebook{
+	width: 70%;
+	vertical-align:middle;
+}
+.Instagram{
+	width: 70%;
+	vertical-align:middle;
+}
+.facebook1{
+	width: 400%;
+	vertical-align:middle;
+}
+.Instagram1{
+	width: 400%;
+	vertical-align:middle;
+}
+.whatsapp1{
+	width: 670%;
+	vertical-align:middle;
+}
+.contatti1 {
+	float: left;
+	display: inline-block;
+	width: 12%;
+	margin-top:6%;
+	margin-left:10%;
+	padding:5%;
+}
+
+.maps {
+	width: 3%;
+	vertical-align:middle;
+
+}
+
+.contatti {
+	float:left;
+	display: inline-block;
+	width: 12%;
+	margin-top:2%;
+	margin-left:1%;
+	padding:5%;
+}
+.blockcontatti {
+	margin-left:23%;
+	color:black;
+	width:65%;
+	background-color:white;
+	text-align:center;
+	text-align: justify;
+}
+
+.blockcontatti1{
+	margin-left:40%;
+	color:black;
+	width:100%;
+	background-color:white;
+	text-align: justify;
+}
+
+
+#galleria1{
+	text-align: center;
+	width: 100%;
+}
+
+.foto{
+	float: left;
+	width: 22%;
+	margin: 10px 1%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.foto1{
+	display: inline-block;
+	width: 22%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.pr{
+	width: 100%;
+}
+
+@media (max-width: 480px) {
+	.foto{
+		width: 98%;
+		margin: 1%;
+	}
+}
+
+@media (max-width: 720px) and (min-width: 480px){
+	.foto{
+		width: 47%;
+	}
+}
+
+@media (max-width: 1020px) and (min-width: 720px){
+	.foto{
+		width: 30%;
+	}
+}
+
+
+table {
+	border-collapse:collapse
+	}
+	td, th {
+	border:1px solid #ddd;
+	padding:8px;
+	}
+
+
+.Video{
+	width: 50%;
+	padding:2%;
+	margin-left: 35%;
+}
+
+.Video1 {
+	margin-left: 29%;
+}
+
+
+/*Gallerie carrello*/
+
